@@ -23,7 +23,7 @@
             <version>5.4.1</version>
             <components>
                 <component>
-                    <name>MASTER</name>
+                    <name>ELASTICSEARCH_MASTER</name>
                     <displayName>Elasticsearch Master</displayName>
                     <category>MASTER</category>
                     <cardinality>1+</cardinality>
@@ -57,6 +57,7 @@
                 <default>true</default>
               </quickLinksConfiguration>
             </quickLinksConfigurations>
+            <restartRequiredAfterChange>true</restartRequiredAfterChange>
         </service>
     </services>
 </metainfo>
