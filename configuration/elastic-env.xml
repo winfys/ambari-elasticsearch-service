@@ -62,7 +62,7 @@
   
   <property>
     <name>elastic_download</name>
-    <value>http://127.0.0.1/elasticsearch/elasticsearch-5.4.1.rpm</value>
+    <value>https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.4.1.rpm</value>
     <description>Elasticsearch rpm dowload url</description>
   </property>
 </configuration>
